@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
                     result = null.toString()
                 }
 
-                result_tv.postDelayed(Runnable { result_tv.text = "Perhitungan BMI anda adalah  $result" }, 2000)
+                result_tv.postDelayed(Runnable { result_tv.text = "Perhitungan BMI anda adalah  $bmi, $result" }, 2000)
         }).start()
 
     }
